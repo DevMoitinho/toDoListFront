@@ -1,0 +1,32 @@
+.task{
+    background-color: #5b6078;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    justify-content: center;
+    justify-items: center;
+
+    padding: 0.4em;
+
+    margin-top: 0.5em;
+
+    border-radius: 15px;
+}
+
+.task-box{
+    background-color: #363a4f;
+
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+.task-button{
+    background-color: #ed8796;
+    border: transparent;
+    width: 100%;
+
+    cursor: pointer;
+
+    border-radius: 30px;
+}

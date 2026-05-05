@@ -1,0 +1,23 @@
+.add-main{
+    background-color:  #363a4f;
+    display: grid;
+
+    justify-items: center;
+
+    padding: 1em;
+
+    width: 100%;
+    border-radius: 15px;
+}
+
+input{
+    margin-bottom: 0.4em;
+}
+
+.add{
+    background-color: #a6da95;
+    height: 30px;
+    width: 50%;
+
+    border-radius: 30px;
+}

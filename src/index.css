@@ -1,0 +1,13 @@
+body{
+  background-color: #24273a;
+  color: #cad3f5;
+  min-height: 100vh;
+}
+
+.root{
+  min-height: 100vh;
+}
+
+.app{
+  height: 100vh;
+}
