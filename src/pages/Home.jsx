@@ -24,7 +24,7 @@ export default function Home(){
 
 
     function remove(id){
-        fetch(`http://localhost:8080/tasks/${id}`, {
+        fetch(`${import.meta.env.VITE_API_URL}/tasks/${id}`, {
             method: "DELETE"
         })
             .then(() => props.onTaskDeleted())

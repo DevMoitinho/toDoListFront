@@ -8,7 +8,7 @@ function AddTasks() {
     function handleAdd() {
         if (name === "" || deadline === "") return
 
-        fetch("http://localhost:8080/tasks", {
+        fetch(`${import.meta.env.VITE_API_URL}/tasks`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, date: deadline })
