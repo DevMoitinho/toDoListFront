@@ -11,7 +11,7 @@ The repository for the back-end can be found in this [link](https://github.com/D
     - Java
     - SpringBoot
 
-## Configuração
+## Setup
 
-Crie um arquivo `.env` na raiz do projeto:
+Create a `.env` file in project root:
 VITE_API_URL=http://localhost:8080
