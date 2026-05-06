@@ -29,7 +29,7 @@ function AddTasks() {
             </div>
             <div>
                 <p>Task Deadline:</p>
-                <input value={deadline} onChange={e => setDeadline(e.target.value)} />
+                <input type="date" value={deadline} onChange={e => setDeadline(e.target.value)} />
             </div>
             <button className="add" onClick={handleAdd}>Add Task</button>
         </div>
