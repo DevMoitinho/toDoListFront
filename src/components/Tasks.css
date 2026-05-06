@@ -8,9 +8,10 @@
 
     padding: 0.4em;
 
-    margin-top: 0.5em;
+    margin-right: 0;
 
     border-radius: 15px;
+    width:90%
 }
 
 .task-box{
@@ -19,6 +20,12 @@
     width: 100%;
 
     border-radius: 15px;
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding:0.5em;
 }
 
 .task-button{
@@ -29,4 +36,7 @@
     cursor: pointer;
 
     border-radius: 30px;
+}
+.task-button:hover{
+    background-color: #a3525e;
 }
